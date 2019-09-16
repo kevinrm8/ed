@@ -1,0 +1,13 @@
+16/09/2019 Kevin
+
+Hemos creado usuario en GitHub. 
+
+Creado repositorio llamado "ed".
+	Con README.md y .gitignore (plantilla Java)
+
+
+En el terminal hemos ejecutado: git clone
+
+Clonar en local:git clone https://github.com/kevinrm8/ed.git
+
+Con Control + R se puede buscar los comandos que hemos gastado anteriormente.
