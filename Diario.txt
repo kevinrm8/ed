@@ -11,3 +11,44 @@ En el terminal hemos ejecutado: git clone
 Clonar en local:git clone https://github.com/kevinrm8/ed.git
 
 Con Control + R se puede buscar los comandos que hemos gastado anteriormente.
+
+19/09/2019
+	--RECORDANDO LA CLASE ANTERIOR--
+
+https://github.com/kevinrm8/ed.git 	//* Es el repositorio remoto *//
+
+/home/kevinrm8/ed
+		.git			 //* Esto es el repositorio local, 						contienen todas las versiones *//
+		
+		diario.txt
+		README.md
+		.gitignore	//Estos 3 es lo que llamamos el directorio
+				de trabajo *//
+-----
+
+git config --global user.name kevinrm8
+git config --global user.email kevmar@alu.iesserpis.org
+git config --global push.default simple
+
+Hay que configurarlo UNA vez en el equipo para indicar el nombre y email
+ya que al clonarlo no se copia.
+
+git clone se hace una vez para que se copie el directorio remoto al local
+
+
+git add diario.txt ( Con esto se crea una nueva version de los marcados con git add )
+git commit -m "Mensaje resumen de la version nueva"
+git push 
+
+git log Puedes ver las versiones. El commit, autor y fecha
+
+git branch -vv Para ver la verson que estamos
+
+git checkout (un trozo del commit para saber a que version volver ) Para volver a una version anterior
+git checkout master Para volver a la ultima version
+
+
+
+
+
+
