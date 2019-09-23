@@ -48,7 +48,38 @@ git checkout (un trozo del commit para saber a que version volver ) Para volver 
 git checkout master Para volver a la ultima version
 
 
+23/09/19
+
+Virtual Box - Hemos creado un virtual box de nombre: SerpisDAM
+con memoria RAM de 2048 MB, DISCO 20 GB y 2 procesadores.
+
+Al instalar ponemos los datos:
+Nombre: administrador
+Nombre Equipo: SerpisDAM
+Pass: sistemas
+
+Dentro del terminal para usar comandos como admin:
+sudo -i ( pedira contraseña )
+pwd ( para saber el directorio en el que nos encontramos )
+apt update (Primero este comando para ver si hay librerias nuevas o actualizaciones)
+apt full-upgrade 
 
 
+/ Vamos hacer un "Hola Mundo" en C.
 
+Creamos un documento HolaMundo.c y pegamos el codigo:
+
+# include <stdio.h>
+
+int main(void) {
+	printf("Hola Mundo\n");
+	return 0;
+}
+
+A continuacion en el terminal usamos cat Hola\ Mundo.c y nos muestra el interior del archivo.
+
+Para compilarlo gastamos el comando
+gcc -0 NombreDeArchivo1 <NombreDelArchivo> ( El NombreDeArchivo1 es un archivo que crea nuevo para compilar )
+./NombreDelArchivo1 (lo ejecutamos y muestra la compilacion)
+gcc -S NombreDeArchivo1.c (Crea un archivo en lenguaje ensamblador )
 
