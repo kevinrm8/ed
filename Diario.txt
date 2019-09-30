@@ -8,7 +8,7 @@ Creado repositorio llamado "ed".
 
 En el terminal hemos ejecutado: git clone
 
-Clonar en local:git clone https://github.com/kevinrm8/ed.git
+Clonar en local: git clone https://github.com/kevinrm8/ed.git
 
 Con Control + R se puede buscar los comandos que hemos gastado anteriormente.
 
@@ -76,10 +76,84 @@ int main(void) {
 	return 0;
 }
 
-A continuacion en el terminal usamos cat Hola\ Mundo.c y nos muestra el interior del archivo.
+A continuacion en el terminal usamos cat Holamundo.c y nos muestra el interior del archivo.
 
 Para compilarlo gastamos el comando
-gcc -0 NombreDeArchivo1 <NombreDelArchivo> ( El NombreDeArchivo1 es un archivo que crea nuevo para compilar )
+gcc -o NombreDeArchivo1 <NombreDelArchivo> ( El NombreDeArchivo1 es un archivo que crea nuevo para compilar )
 ./NombreDelArchivo1 (lo ejecutamos y muestra la compilacion)
 gcc -S NombreDeArchivo1.c (Crea un archivo en lenguaje ensamblador )
+
+26/09/19
+
+java -version -> JRE (Gasta la version 1.11
+javac -version Para ver la version de -> JDK  ( Gasta la version 1.8)
+
+(Para instalar java en VirtualBox:
+Miro con: java -version 
+Comando: sudo apt install default-jre
+
+Pedira la contraseña del admin y se instala
+
+
+30/09/19
+
+
+/*
+ Vamos a crear un HolaMundo pero esta vez en Java
+*/
+
+class HelloWorld
+{
+	public static void main(String args[]) {
+		System.out.println("Hola Mundo");	
+	}
+
+}
+
+para ejecutar el programa tenemos que poner:
+javac "Nombredelarchivo.java"
+Si no ocurre nada es porque ha compilado correctamente, de lo contrario
+saldra el error por pantalla.
+
+Para que se vea por el terminal el resultado de la compilacion, debemos hacer:
+java "Nombredelarchivo" sin el .java 
+
+Con el programa Eclipse hemos creado un nuevo projecto, propiedades r defecto
+
+Hemos creado otro projecto con una nueva clase, hemos cambiado el
+"Package" de la clase llamandolo: iesserpis.ed
+
+Al cambiar el package, la clase completa ahora se llama: iesserpis.ed.HolaMundo 
+Se han creado ahora los directorios: iesserpis, dentro de el el bin y src y dentro estan los HolaMundo.java y HolaMundo.class
+
+
+Para ejecutarlo en el terminal, tenemosque llegar a la carpeta bin.
+es decir: cd ed/JHolaMundo/bin y una vez aqui: java iesserpis.ed.HolaMundo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
