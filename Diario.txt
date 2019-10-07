@@ -131,7 +131,18 @@ Para ejecutarlo en el terminal, tenemosque llegar a la carpeta bin.
 es decir: cd ed/JHolaMundo/bin y una vez aqui: java iesserpis.ed.HolaMundo
 
 
+07/10/19
 
+
+http://.../ed.git
+
+( En orden: Trabajamos en clase en el PC04, hacemos cambios y lo subimos al github. A continuacion en casa copiamos lo nuevo con git pull, tambien borra lo antiguo, lo actualiza.)
+	PC04				CASA
+1vez 	git clone http://.../ed.git	git clone http://.../ed.git
+	git add .
+	git commit -m "..."
+	git push
+					git pull
 
 
 
