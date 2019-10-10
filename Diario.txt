@@ -144,9 +144,16 @@ http://.../ed.git
 	git push
 					git pull
 
+10/09/19
+
+Acabar de poner a puto la maquina virtual
+
+Primero actualizar con "apt update" y "apt full-upgrade", anteriormente darnos permisos de administrador con "sudo -i" 
 
 
+ apt list openjdk* 
 
+Explica como gastar el If-else. Para el programa del adivina.
 
 
 
