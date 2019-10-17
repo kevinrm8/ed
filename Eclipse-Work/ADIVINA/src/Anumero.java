@@ -9,14 +9,14 @@ public class Anumero {
 		int num,aleatorio,contador,i,j,intentos=3,n=1,partida=1;
 		String[] cad=new String[10]; // Creo cadena de tamaño 10
 		
-		for(i=0;i<10;i++) {
-		cad[i]=i+"";
-		System.out.print("["+cad[i]+"]");
-							}
-		System.out.println("");
+		
+		
 		while (n != 0){
 			for(i=0;i<10;i++) {
-				cad[i]=i+"";
+				cad[i]=(i+1)+"";
+				System.out.print("["+cad[i]+"]");
+							}
+			System.out.println("");
 			aleatorio = (int) (Math.random()*10+1);
 			contador=1;
 			do { 
@@ -26,20 +26,34 @@ public class Anumero {
 					if(num != aleatorio) {
 						System.out.println("Has fallado!");
 							if(num>aleatorio){
-							System.out.print("Te has pasado! El numero que buscas es menor que "+num);
-							for(j=num;j<10;j++)
-									cad[j]= "";
-							for(i=0;i<10;i++)
-							System.out.print("["+cad[i]+"]");
-											}
+							System.out.println("Te has pasado! El numero que buscas es menor que "+num);
+//							cad[(num-1)] ="";
+//							for(i=0;i<10;i++) {
+//								System.out.print("["+cad[i]+"]");
+//							}
+							for(j=num;j<=10;j++) {
+									cad[(j-1)]= "";
 							}
-							else {System.out.println("Te has quedado corto! El numero que buscas es mayor que "+num);
-								for(j=num;j>0;j--)
-									cad[j]= "";	
-									contador++;
-								}
+							for(i=0;i<10;i++)
+							System.out.print("["+cad[(i)]+"]");
+							System.out.println("");
+
+											}
+							
+											else 
+												{System.out.println("Te has quedado corto! El numero que buscas es mayor que "+num);
+												for(j=0;j<num;j++)
+													cad[j]= "";	
+													contador++;
+												for(i=0;i<10;i++)
+													System.out.print("["+cad[i]+"]");
+													System.out.println("");
+
+												}
+										}
 								
 				} while (num != aleatorio);
+			
 					if ( num == aleatorio);
 					System.out.println("Has acertado!Te ha costado un total de "+contador+" intentos.");
 
@@ -50,38 +64,9 @@ public class Anumero {
 								partida ++;
 						
 							}
-		System.out.println("Has jugado un total de "+partida+" partidas");
-	}
+			if (n==0)
+			System.out.println("Has jugado un total de "+partida+" partidas");
 	}
 	}
 	
-
-
-
-
-
-// COPIA DE CODIGO DE SEGURIDAD
-
-//int num,aleatorio,contador=1,i,intentos=3;
-//
-//aleatorio = (int) (Math.random()*10+1);
-//
-//do { 
-//	System.out.println("Adivina el numero entre [1-10]");
-//	num= scanner.nextInt();
-//	
-//		if(num != aleatorio) {
-//			System.out.println("Has fallado!");
-//				if(num>aleatorio){
-//				System.out.println("Te has pasado! El numero que buscas es menor que "+num);
-//				}
-//				else System.out.println("Te has quedado corto! El numero que buscas es mayor que "+num);
-//			contador++;
-//							}
-//					
-//	} while (num != aleatorio);
-//		if ( num == aleatorio);
-//		System.out.println("Has acertado!Solo te ha costado "+contador+" intentos.");
-//
-//		}
-//}
+	
