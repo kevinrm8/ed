@@ -7,16 +7,16 @@ public class Anumero {
 		
 		
 		int num,aleatorio,contador,i,j,intentos=3,n=1,partida=1;
-		int[] cad=new int[10]; // Creo cadena de tamaño 10
+		String[] cad=new String[10]; // Creo cadena de tamaño 10
 		
 		for(i=0;i<10;i++) {
-		cad[i]=i;
+		cad[i]=i+"";
 		System.out.print("["+cad[i]+"]");
 							}
 		System.out.println("");
 		while (n != 0){
 			for(i=0;i<10;i++) {
-				cad[i]=i;
+				cad[i]=i+"";
 			aleatorio = (int) (Math.random()*10+1);
 			contador=1;
 			do { 
@@ -26,16 +26,18 @@ public class Anumero {
 					if(num != aleatorio) {
 						System.out.println("Has fallado!");
 							if(num>aleatorio){
-							System.out.println("Te has pasado! El numero que buscas es menor que "+num);
+							System.out.print("Te has pasado! El numero que buscas es menor que "+num);
 							for(j=num;j<10;j++)
-									cad[j]= 0;
+									cad[j]= "";
+							for(i=0;i<10;i++)
+							System.out.print("["+cad[i]+"]");
 											}
 							}
-							else System.out.println("Te has quedado corto! El numero que buscas es mayor que "+num);
+							else {System.out.println("Te has quedado corto! El numero que buscas es mayor que "+num);
 								for(j=num;j>0;j--)
-									cad[j]= 0;	
-					contador++;
-										
+									cad[j]= "";	
+									contador++;
+								}
 								
 				} while (num != aleatorio);
 					if ( num == aleatorio);
