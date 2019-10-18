@@ -27,10 +27,7 @@ public class Anumero {
 						System.out.println("Has fallado!");
 							if(num>aleatorio){
 							System.out.println("Te has pasado! El numero que buscas es menor que "+num);
-//							cad[(num-1)] ="";
-//							for(i=0;i<10;i++) {
-//								System.out.print("["+cad[i]+"]");
-//							}
+							
 							for(j=num;j<=10;j++) {
 									cad[(j-1)]= "";
 							}
