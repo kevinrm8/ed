@@ -1,6 +1,7 @@
+
 import java.util.Scanner;
 
-public class Anumero {
+public class anonimoprueba {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
@@ -61,8 +62,6 @@ public class Anumero {
 						
 							}
 			if (n==0)
-				System.out.printf("Has jugado un total de %s partida/s",partida);
+			System.out.printf("Has jugado un total de %s partida/s",partida);
 	}
 	}
-	
-	
