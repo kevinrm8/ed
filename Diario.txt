@@ -144,7 +144,7 @@ http://.../ed.git
 	git push
 					git pull
 
-10/09/19
+10/10/19
 
 Acabar de poner a puto la maquina virtual
 
@@ -157,8 +157,14 @@ Explica como gastar el If-else. Para el programa del adivina.
 
 
 
+27/10/19
 
+Estamos realizando pruebas con Eclipse, creando vectores y viendo su
+funcionamiento.
 
+Hemos creado un metodo que llamos en la misma clase, para sacar un dato especifico dentro del vector.
+
+Hemos creado un programa que busca el digito que queremos encontrar y nos dice la posicion en la que se encuentra en el vector, o si no esta nos dice que no se encuentra en el.
 
 
 

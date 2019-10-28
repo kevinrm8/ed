@@ -19,10 +19,7 @@ public class Vector {
 		System.out.println("la suma vale:" +suma);
 								}
 				System.out.println("Tamaño");
-				tamanyo = scanner.nextInt();
-
-				
-										
+				tamanyo = scanner.nextInt();							
 				
 		int[] v2 = new int[tamanyo];
 		
