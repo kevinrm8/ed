@@ -6,10 +6,11 @@
   <import>
     <widget-library name="../bin/Debug/Calc.exe" internal="true" />
   </import>
-  <widget class="Gtk.Window" id="MainWindow" design-size="178 275">
+  <widget class="Gtk.Window" id="MainWindow" design-size="220 315">
     <property name="MemberName" />
     <property name="Title" translatable="yes">MainWindow</property>
     <property name="WindowPosition">CenterOnParent</property>
+    <property name="BorderWidth">30</property>
     <property name="Resizable">False</property>
     <signal name="DeleteEvent" handler="OnDeleteEvent" />
     <child>

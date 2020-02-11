@@ -8,6 +8,7 @@ public partial class MainWindow : Gtk.Window
     //Con switch case sabemos que operacion tenemos que hacer y mostramos resultado 
     public double operando1,operando2;
     public String operacion;
+    public Boolean res;
 
     public MainWindow() : base(Gtk.WindowType.Toplevel)
     {
@@ -32,10 +33,16 @@ public partial class MainWindow : Gtk.Window
 
     protected void OnClicked0(object sender, EventArgs e)
     {
+        if (res) {
+            Pantalla.DeleteText(0, Pantalla.Text.Length);
+            Pantalla.InsertText("0");
+            res = false;
+        }else {
+            String Display = Pantalla.Text.ToString();
+            Pantalla.DeleteText(0, Pantalla.Text.Length);
+            Pantalla.InsertText(Display + "0");
+        }
 
-       String Display = Pantalla.Text.ToString();
-        Pantalla.DeleteText(0,Pantalla.Text.Length);
-        Pantalla.InsertText(Display + "0");
     }
 
     protected void OnClickedIgual(object sender, EventArgs e)
@@ -45,7 +52,7 @@ public partial class MainWindow : Gtk.Window
         operando2 = double.Parse(Pantalla.Text);
         Pantalla.DeleteText(0, Pantalla.Text.Length);
         calcula();
-
+        res = true;
     }
 
     protected void OnClickedSuma(object sender, EventArgs e)
@@ -60,23 +67,51 @@ public partial class MainWindow : Gtk.Window
 
     protected void OnClicked1(object sender, EventArgs e)
     {
-        String Display = Pantalla.Text.ToString();
-        Pantalla.DeleteText(0, Pantalla.Text.Length);
-        Pantalla.InsertText(Display + "1");
+    
+        if (res)
+        {
+            Pantalla.DeleteText(0, Pantalla.Text.Length);
+            Pantalla.InsertText("1");
+            res = false;
+        }
+        else
+        {
+            String Display = Pantalla.Text.ToString();
+            Pantalla.DeleteText(0, Pantalla.Text.Length);
+            Pantalla.InsertText(Display + "1");
+        }
     }
 
     protected void OnClicked2(object sender, EventArgs e)
     {
-        String Display = Pantalla.Text.ToString();
-        Pantalla.DeleteText(0, Pantalla.Text.Length);
-        Pantalla.InsertText(Display + "2");
+        if (res)
+        {
+            Pantalla.DeleteText(0, Pantalla.Text.Length);
+            Pantalla.InsertText("2");
+            res = false;
+        }
+        else
+        {
+            String Display = Pantalla.Text.ToString();
+            Pantalla.DeleteText(0, Pantalla.Text.Length);
+            Pantalla.InsertText(Display + "2");
+        }
     }
 
     protected void OnClicked3(object sender, EventArgs e)
     {
-        String Display = Pantalla.Text.ToString();
-        Pantalla.DeleteText(0, Pantalla.Text.Length);
-        Pantalla.InsertText(Display + "3");
+        if (res)
+        {
+            Pantalla.DeleteText(0, Pantalla.Text.Length);
+            Pantalla.InsertText("3");
+            res = false;
+        }
+        else
+        {
+            String Display = Pantalla.Text.ToString();
+            Pantalla.DeleteText(0, Pantalla.Text.Length);
+            Pantalla.InsertText(Display + "3");
+        }
     }
 
     protected void OnClickedResta(object sender, EventArgs e)
@@ -93,23 +128,50 @@ public partial class MainWindow : Gtk.Window
 
     protected void OnClicked4(object sender, EventArgs e)
     {
-        String Display = Pantalla.Text.ToString();
-        Pantalla.DeleteText(0, Pantalla.Text.Length);
-        Pantalla.InsertText(Display + "4");
+        if (res)
+        {
+            Pantalla.DeleteText(0, Pantalla.Text.Length);
+            Pantalla.InsertText("4");
+            res = false;
+        }
+        else
+        {
+            String Display = Pantalla.Text.ToString();
+            Pantalla.DeleteText(0, Pantalla.Text.Length);
+            Pantalla.InsertText(Display + "4");
+        }
     }
 
     protected void OnClicked5(object sender, EventArgs e)
     {
-        String Display = Pantalla.Text.ToString();
-        Pantalla.DeleteText(0, Pantalla.Text.Length);
-        Pantalla.InsertText(Display + "5");
+        if (res)
+        {
+            Pantalla.DeleteText(0, Pantalla.Text.Length);
+            Pantalla.InsertText("5");
+            res = false;
+        }
+        else
+        {
+            String Display = Pantalla.Text.ToString();
+            Pantalla.DeleteText(0, Pantalla.Text.Length);
+            Pantalla.InsertText(Display + "5");
+        }
     }
 
     protected void OnClicked6(object sender, EventArgs e)
     {
-        String Display = Pantalla.Text.ToString();
-        Pantalla.DeleteText(0, Pantalla.Text.Length);
-        Pantalla.InsertText(Display + "6");
+        if (res)
+        {
+            Pantalla.DeleteText(0, Pantalla.Text.Length);
+            Pantalla.InsertText("6");
+            res = false;
+        }
+        else
+        {
+            String Display = Pantalla.Text.ToString();
+            Pantalla.DeleteText(0, Pantalla.Text.Length);
+            Pantalla.InsertText(Display + "6");
+        }
     }
 
     protected void OnClickedMulti(object sender, EventArgs e)
@@ -126,23 +188,50 @@ public partial class MainWindow : Gtk.Window
 
     protected void OnClicked7(object sender, EventArgs e)
     {
-        String Display = Pantalla.Text.ToString();
-        Pantalla.DeleteText(0, Pantalla.Text.Length);
-        Pantalla.InsertText(Display + "7");
+        if (res)
+        {
+            Pantalla.DeleteText(0, Pantalla.Text.Length);
+            Pantalla.InsertText("7");
+            res = false;
+        }
+        else
+        {
+            String Display = Pantalla.Text.ToString();
+            Pantalla.DeleteText(0, Pantalla.Text.Length);
+            Pantalla.InsertText(Display + "7");
+        }
     }
 
     protected void OnClicked8(object sender, EventArgs e)
     {
-        String Display = Pantalla.Text.ToString();
-        Pantalla.DeleteText(0, Pantalla.Text.Length);
-        Pantalla.InsertText(Display + "8");
+        if (res)
+        {
+            Pantalla.DeleteText(0, Pantalla.Text.Length);
+            Pantalla.InsertText("8");
+            res = false;
+        }
+        else
+        {
+            String Display = Pantalla.Text.ToString();
+            Pantalla.DeleteText(0, Pantalla.Text.Length);
+            Pantalla.InsertText(Display + "8");
+        }
     }
 
     protected void OnClicked9(object sender, EventArgs e)
     {
-        String Display = Pantalla.Text.ToString();
-        Pantalla.DeleteText(0, Pantalla.Text.Length);
-        Pantalla.InsertText(Display + "9");
+        if (res)
+        {
+            Pantalla.DeleteText(0, Pantalla.Text.Length);
+            Pantalla.InsertText("9");
+            res = false;
+        }
+        else
+        {
+            String Display = Pantalla.Text.ToString();
+            Pantalla.DeleteText(0, Pantalla.Text.Length);
+            Pantalla.InsertText(Display + "9");
+        }
     }
 
     protected void OnClickedDivision(object sender, EventArgs e)
@@ -166,8 +255,14 @@ public partial class MainWindow : Gtk.Window
 
     protected void OnClickedC(object sender, EventArgs e)
     {
-        String Display = Pantalla.Text.ToString();
-        Pantalla.DeleteText((Pantalla.Text.Length-1), Pantalla.Text.Length);
+        if (res) {
+        }
+        else
+        {
+            String Display = Pantalla.Text.ToString();
+            Pantalla.DeleteText((Pantalla.Text.Length - 1), Pantalla.Text.Length);
+        }
+
     }
 
     public void calcula ()

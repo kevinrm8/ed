@@ -10,3 +10,9 @@
 /home/kevmar/Asignaturas/Entorno Desarrollo/Projects/CBingo/CBingo/obj/x86/Debug/CBingo.csproj.CoreCompileInputs.cache
 /home/kevmar/Asignaturas/Entorno Desarrollo/Projects/CBingo/CBingo/obj/x86/Debug/CBingo.exe
 /home/kevmar/Asignaturas/Entorno Desarrollo/Projects/CBingo/CBingo/obj/x86/Debug/CBingo.pdb
+/home/kevmar/ed/Entorno Desarrollo Tamara/Projects/CBingo/CBingo/bin/Debug/CBingo.exe
+/home/kevmar/ed/Entorno Desarrollo Tamara/Projects/CBingo/CBingo/bin/Debug/CBingo.pdb
+/home/kevmar/ed/Entorno Desarrollo Tamara/Projects/CBingo/CBingo/obj/x86/Debug/CBingo.csprojAssemblyReference.cache
+/home/kevmar/ed/Entorno Desarrollo Tamara/Projects/CBingo/CBingo/obj/x86/Debug/CBingo.csproj.CoreCompileInputs.cache
+/home/kevmar/ed/Entorno Desarrollo Tamara/Projects/CBingo/CBingo/obj/x86/Debug/CBingo.exe
+/home/kevmar/ed/Entorno Desarrollo Tamara/Projects/CBingo/CBingo/obj/x86/Debug/CBingo.pdb

@@ -11,7 +11,11 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node />
+          <Node name="CBingo" expanded="True">
+            <Node name="CBingo" expanded="True">
+              <Node name="Bombo.cs" selected="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
