@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{875E8CA7-33A3-4928-AB62-49CC07EC0B43}|Default">
+  <MonoDevelop.Ide.ItemProperties.Tabla PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Tabla/MainWindow.cs">
+    <Files>
+      <File FileName="Tabla/Program.cs" Line="16" Column="2" />
+      <File FileName="Tabla/MainWindow.cs" Line="1" Column="1" />
+      <File FileName="Tabla/Panel.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Tabla" expanded="True">
+            <Node name="Tabla" expanded="True">
+              <Node name="MainWindow.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

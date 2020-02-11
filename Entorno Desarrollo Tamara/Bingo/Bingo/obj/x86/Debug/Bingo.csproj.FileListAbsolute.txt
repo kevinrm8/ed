@@ -1,0 +1,6 @@
+/home/kevmar/Asignaturas/Entorno Desarrollo/Bingo/Bingo/obj/x86/Debug/Bingo.csprojAssemblyReference.cache
+/home/kevmar/Asignaturas/Entorno Desarrollo/Bingo/Bingo/obj/x86/Debug/Bingo.csproj.CoreCompileInputs.cache
+/home/kevmar/Asignaturas/Entorno Desarrollo/Bingo/Bingo/bin/Debug/Bingo.exe
+/home/kevmar/Asignaturas/Entorno Desarrollo/Bingo/Bingo/bin/Debug/Bingo.pdb
+/home/kevmar/Asignaturas/Entorno Desarrollo/Bingo/Bingo/obj/x86/Debug/Bingo.exe
+/home/kevmar/Asignaturas/Entorno Desarrollo/Bingo/Bingo/obj/x86/Debug/Bingo.pdb

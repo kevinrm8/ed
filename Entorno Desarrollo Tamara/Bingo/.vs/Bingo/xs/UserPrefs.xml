@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{90A686E3-B772-4AA3-A826-667BE807DD86}|Default">
+  <MonoDevelop.Ide.ItemProperties.Bingo PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Bingo/Panel.cs">
+    <Files>
+      <File FileName="Bingo/Program.cs" Line="17" Column="1" />
+      <File FileName="Bingo/MainWindow.cs" Line="7" Column="1" />
+      <File FileName="Bingo/Panel.cs" Line="11" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Bingo" expanded="True">
+            <Node name="Bingo" expanded="True">
+              <Node name="Panel.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

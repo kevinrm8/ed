@@ -1,0 +1,6 @@
+/home/kevmar/Asignaturas/Entorno Desarrollo/Projects/Calculadora/Calculadora/bin/Debug/Calculadora.exe
+/home/kevmar/Asignaturas/Entorno Desarrollo/Projects/Calculadora/Calculadora/bin/Debug/Calculadora.pdb
+/home/kevmar/Asignaturas/Entorno Desarrollo/Projects/Calculadora/Calculadora/obj/x86/Debug/Calculadora.csprojAssemblyReference.cache
+/home/kevmar/Asignaturas/Entorno Desarrollo/Projects/Calculadora/Calculadora/obj/x86/Debug/Calculadora.csproj.CoreCompileInputs.cache
+/home/kevmar/Asignaturas/Entorno Desarrollo/Projects/Calculadora/Calculadora/obj/x86/Debug/Calculadora.exe
+/home/kevmar/Asignaturas/Entorno Desarrollo/Projects/Calculadora/Calculadora/obj/x86/Debug/Calculadora.pdb

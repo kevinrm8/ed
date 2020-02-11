@@ -1,0 +1,6 @@
+/home/kevmar/Asignaturas/Entorno Desarrollo/Projects/Project1601/Project1601/bin/Debug/Project1601.exe
+/home/kevmar/Asignaturas/Entorno Desarrollo/Projects/Project1601/Project1601/bin/Debug/Project1601.pdb
+/home/kevmar/Asignaturas/Entorno Desarrollo/Projects/Project1601/Project1601/obj/x86/Debug/Project1601.csprojAssemblyReference.cache
+/home/kevmar/Asignaturas/Entorno Desarrollo/Projects/Project1601/Project1601/obj/x86/Debug/Project1601.csproj.CoreCompileInputs.cache
+/home/kevmar/Asignaturas/Entorno Desarrollo/Projects/Project1601/Project1601/obj/x86/Debug/Project1601.exe
+/home/kevmar/Asignaturas/Entorno Desarrollo/Projects/Project1601/Project1601/obj/x86/Debug/Project1601.pdb

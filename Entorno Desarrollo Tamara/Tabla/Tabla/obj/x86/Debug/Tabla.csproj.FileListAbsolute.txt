@@ -1,0 +1,6 @@
+/home/kevmar/Asignaturas/Entorno Desarrollo/Tabla/Tabla/bin/Debug/Tabla.exe
+/home/kevmar/Asignaturas/Entorno Desarrollo/Tabla/Tabla/bin/Debug/Tabla.pdb
+/home/kevmar/Asignaturas/Entorno Desarrollo/Tabla/Tabla/obj/x86/Debug/Tabla.csprojAssemblyReference.cache
+/home/kevmar/Asignaturas/Entorno Desarrollo/Tabla/Tabla/obj/x86/Debug/Tabla.csproj.CoreCompileInputs.cache
+/home/kevmar/Asignaturas/Entorno Desarrollo/Tabla/Tabla/obj/x86/Debug/Tabla.exe
+/home/kevmar/Asignaturas/Entorno Desarrollo/Tabla/Tabla/obj/x86/Debug/Tabla.pdb

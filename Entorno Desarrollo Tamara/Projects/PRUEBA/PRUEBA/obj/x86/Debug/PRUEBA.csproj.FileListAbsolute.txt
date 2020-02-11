@@ -1,0 +1,6 @@
+/home/kevmar/Projects/PRUEBA/PRUEBA/bin/Debug/PRUEBA.exe
+/home/kevmar/Projects/PRUEBA/PRUEBA/bin/Debug/PRUEBA.pdb
+/home/kevmar/Projects/PRUEBA/PRUEBA/obj/x86/Debug/PRUEBA.csprojAssemblyReference.cache
+/home/kevmar/Projects/PRUEBA/PRUEBA/obj/x86/Debug/PRUEBA.csproj.CoreCompileInputs.cache
+/home/kevmar/Projects/PRUEBA/PRUEBA/obj/x86/Debug/PRUEBA.exe
+/home/kevmar/Projects/PRUEBA/PRUEBA/obj/x86/Debug/PRUEBA.pdb
