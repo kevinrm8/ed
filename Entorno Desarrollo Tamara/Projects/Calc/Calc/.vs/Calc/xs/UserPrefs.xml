@@ -1,16 +1,10 @@
 ﻿<Properties StartupConfiguration="{E8065930-886F-4BEA-B3E5-C97A6653F4A4}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Calc/MainWindow.cs">
-    <Files>
-      <File FileName="Calc/Program.cs" Line="1" Column="1" />
-      <File FileName="Calc/MainWindow.cs" Line="256" Column="62" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Calc" expanded="True">
-            <Node name="Calc" expanded="True">
-              <Node name="MainWindow.cs" selected="True" />
-            </Node>
+            <Node name="Calc" selected="True" />
           </Node>
         </State>
       </Pad>

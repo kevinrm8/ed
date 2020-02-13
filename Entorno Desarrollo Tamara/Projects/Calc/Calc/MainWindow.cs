@@ -57,12 +57,14 @@ public partial class MainWindow : Gtk.Window
 
     protected void OnClickedSuma(object sender, EventArgs e)
     {
-        String Display = Pantalla.Text;
-        operacion = "+";
-        //Pasar el texto a int para poder trabajar con el
-        operando1 = double.Parse(Pantalla.Text);
-        // Borramos lo que hay en pantalla
-        Pantalla.DeleteText(0, Pantalla.Text.Length); 
+        if (!Pantalla.Text.Equals("")) { 
+            String Display = Pantalla.Text;
+            operacion = "+";
+            //Pasar el texto a int para poder trabajar con el
+            operando1 = double.Parse(Pantalla.Text);
+            // Borramos lo que hay en pantalla
+            Pantalla.DeleteText(0, Pantalla.Text.Length);
+        }
     }
 
     protected void OnClicked1(object sender, EventArgs e)
@@ -116,13 +118,15 @@ public partial class MainWindow : Gtk.Window
 
     protected void OnClickedResta(object sender, EventArgs e)
     {
-        String Display = Pantalla.Text.ToString();
-        operacion = "-";
-        //Pasar el texto a int para poder trabajar con el
-        operando1 = double.Parse(Pantalla.Text);
-        // Borramos lo que hay en pantalla
-        Pantalla.DeleteText(0, Pantalla.Text.Length);
-
+        if (!Pantalla.Text.Equals(""))
+        {
+            String Display = Pantalla.Text.ToString();
+            operacion = "-";
+            //Pasar el texto a int para poder trabajar con el
+            operando1 = double.Parse(Pantalla.Text);
+            // Borramos lo que hay en pantalla
+            Pantalla.DeleteText(0, Pantalla.Text.Length);
+        }
 
     }
 
@@ -176,13 +180,15 @@ public partial class MainWindow : Gtk.Window
 
     protected void OnClickedMulti(object sender, EventArgs e)
     {
-        String Display = Pantalla.Text.ToString();
-        operacion = "*";        
-        //Pasar el texto a int para poder trabajar con el
-        operando1 = double.Parse(Pantalla.Text);
-        // Borramos lo que hay en pantalla
-        Pantalla.DeleteText(0, Pantalla.Text.Length);
-
+        if (!Pantalla.Text.Equals(""))
+        {
+            String Display = Pantalla.Text.ToString();
+            operacion = "*";
+            //Pasar el texto a int para poder trabajar con el
+            operando1 = double.Parse(Pantalla.Text);
+            // Borramos lo que hay en pantalla
+            Pantalla.DeleteText(0, Pantalla.Text.Length);
+        }
     }
 
 
@@ -236,21 +242,27 @@ public partial class MainWindow : Gtk.Window
 
     protected void OnClickedDivision(object sender, EventArgs e)
     {
-        String Display = Pantalla.Text.ToString();
-        operacion = "/";
-        //Pasar el texto a int para poder trabajar con el
-        operando1 = double.Parse(Pantalla.Text);
-        // Borramos lo que hay en pantalla
-        Pantalla.DeleteText(0, Pantalla.Text.Length);
+        if (!Pantalla.Text.Equals(""))
+        {
+            String Display = Pantalla.Text.ToString();
+            operacion = "/";
+            //Pasar el texto a int para poder trabajar con el
+            operando1 = double.Parse(Pantalla.Text);
+            // Borramos lo que hay en pantalla
+            Pantalla.DeleteText(0, Pantalla.Text.Length);
+        }
     }
 
     protected void OnClickedReset(object sender, EventArgs e)
     {
-        String Display = Pantalla.Text.ToString();
-        Pantalla.DeleteText(0, Pantalla.Text.Length);
-        operacion = "";
-        operando1 = 0;
-        operando2 = 0;
+        if (!Pantalla.Text.Equals(""))
+        {
+            String Display = Pantalla.Text.ToString();
+            Pantalla.DeleteText(0, Pantalla.Text.Length);
+            operacion = "";
+            operando1 = 0;
+            operando2 = 0;
+        }
     }
 
     protected void OnClickedC(object sender, EventArgs e)

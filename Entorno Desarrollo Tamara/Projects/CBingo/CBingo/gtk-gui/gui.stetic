@@ -60,4 +60,20 @@
       </widget>
     </child>
   </widget>
+  <widget class="Gtk.Window" id="CBingo.Window" design-size="400 300">
+    <property name="MemberName" />
+    <property name="Title" translatable="yes">Window</property>
+    <property name="WindowPosition">CenterOnParent</property>
+    <child>
+      <placeholder />
+    </child>
+  </widget>
+  <widget class="Gtk.Window" id="CBingo.Carton" design-size="400 300">
+    <property name="MemberName" />
+    <property name="Title" translatable="yes">Carton</property>
+    <property name="WindowPosition">CenterOnParent</property>
+    <child>
+      <placeholder />
+    </child>
+  </widget>
 </stetic-interface>
