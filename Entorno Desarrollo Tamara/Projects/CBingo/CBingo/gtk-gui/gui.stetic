@@ -17,7 +17,7 @@
         <property name="MemberName" />
         <property name="Spacing">6</property>
         <child>
-          <widget class="Gtk.HBox" id="hbox1">
+          <widget class="Gtk.HBox" id="hbox2">
             <property name="MemberName" />
             <property name="Spacing">6</property>
             <child>
@@ -47,11 +47,28 @@
                 <property name="Fill">False</property>
               </packing>
             </child>
+            <child>
+              <widget class="Gtk.Button" id="Bcarton">
+                <property name="MemberName" />
+                <property name="CanFocus">True</property>
+                <property name="Type">TextOnly</property>
+                <property name="Label" translatable="yes">Carton</property>
+                <property name="UseUnderline">True</property>
+                <signal name="Clicked" handler="OnClickBCarton" />
+              </widget>
+              <packing>
+                <property name="Position">2</property>
+                <property name="AutoSize">True</property>
+                <property name="Expand">False</property>
+                <property name="Fill">False</property>
+              </packing>
+            </child>
           </widget>
           <packing>
             <property name="Position">0</property>
-            <property name="AutoSize">False</property>
+            <property name="AutoSize">True</property>
             <property name="Expand">False</property>
+            <property name="Fill">False</property>
           </packing>
         </child>
         <child>
@@ -72,8 +89,15 @@
     <property name="MemberName" />
     <property name="Title" translatable="yes">Carton</property>
     <property name="WindowPosition">CenterOnParent</property>
+    <property name="BorderWidth">9</property>
     <child>
-      <placeholder />
+      <widget class="Gtk.VBox" id="vbox1">
+        <property name="MemberName" />
+        <property name="Spacing">6</property>
+        <child>
+          <placeholder />
+        </child>
+      </widget>
     </child>
   </widget>
 </stetic-interface>

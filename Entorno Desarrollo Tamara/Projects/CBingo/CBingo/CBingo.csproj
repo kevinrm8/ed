@@ -65,7 +65,6 @@
     <Compile Include="Program.cs" />
     <Compile Include="Panel.cs" />
     <Compile Include="Bombo.cs" />
-    <Compile Include="Boleto.cs" />
     <Compile Include="gtk-gui\CBingo.Window.cs" />
     <Compile Include="Carton.cs" />
     <Compile Include="gtk-gui\CBingo.Carton.cs" />

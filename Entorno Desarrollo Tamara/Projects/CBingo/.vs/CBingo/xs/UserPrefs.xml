@@ -3,11 +3,10 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="CBingo/Carton.cs">
     <Files>
       <File FileName="CBingo/Program.cs" Line="17" Column="1" />
-      <File FileName="CBingo/Panel.cs" Line="11" Column="41" />
-      <File FileName="CBingo/Bombo.cs" Line="13" Column="9" />
-      <File FileName="CBingo/Boleto.cs" Line="14" Column="33" />
-      <File FileName="CBingo/MainWindow.cs" Line="36" Column="7" />
-      <File FileName="CBingo/Carton.cs" Line="4" Column="11" />
+      <File FileName="CBingo/Panel.cs" Line="38" Column="1" />
+      <File FileName="CBingo/Bombo.cs" Line="18" Column="10" />
+      <File FileName="CBingo/MainWindow.cs" Line="42" Column="48" />
+      <File FileName="CBingo/Carton.cs" Line="47" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,11 +16,6 @@
               <Node name="Carton.cs" selected="True" />
             </Node>
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="ClassPad">
-        <State name="__root__">
-          <Node name="CBingo" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>

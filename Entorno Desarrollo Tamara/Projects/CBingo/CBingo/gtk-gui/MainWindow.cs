@@ -5,11 +5,13 @@ public partial class MainWindow
 {
 	private global::Gtk.VBox vbox1;
 
-	private global::Gtk.HBox hbox1;
+	private global::Gtk.HBox hbox2;
 
 	private global::Gtk.Label Text;
 
 	private global::Gtk.Button BJugar;
+
+	private global::Gtk.Button Bcarton;
 
 	protected virtual void Build()
 	{
@@ -24,33 +26,45 @@ public partial class MainWindow
 		this.vbox1.Name = "vbox1";
 		this.vbox1.Spacing = 6;
 		// Container child vbox1.Gtk.Box+BoxChild
-		this.hbox1 = new global::Gtk.HBox();
-		this.hbox1.Name = "hbox1";
-		this.hbox1.Spacing = 6;
-		// Container child hbox1.Gtk.Box+BoxChild
+		this.hbox2 = new global::Gtk.HBox();
+		this.hbox2.Name = "hbox2";
+		this.hbox2.Spacing = 6;
+		// Container child hbox2.Gtk.Box+BoxChild
 		this.Text = new global::Gtk.Label();
 		this.Text.Name = "Text";
 		this.Text.LabelProp = global::Mono.Unix.Catalog.GetString("Mi Primer Bingo");
-		this.hbox1.Add(this.Text);
-		global::Gtk.Box.BoxChild w1 = ((global::Gtk.Box.BoxChild)(this.hbox1[this.Text]));
+		this.hbox2.Add(this.Text);
+		global::Gtk.Box.BoxChild w1 = ((global::Gtk.Box.BoxChild)(this.hbox2[this.Text]));
 		w1.Position = 0;
 		w1.Expand = false;
 		w1.Fill = false;
-		// Container child hbox1.Gtk.Box+BoxChild
+		// Container child hbox2.Gtk.Box+BoxChild
 		this.BJugar = new global::Gtk.Button();
 		this.BJugar.CanFocus = true;
 		this.BJugar.Name = "BJugar";
 		this.BJugar.UseUnderline = true;
 		this.BJugar.Label = global::Mono.Unix.Catalog.GetString("JUGAR");
-		this.hbox1.Add(this.BJugar);
-		global::Gtk.Box.BoxChild w2 = ((global::Gtk.Box.BoxChild)(this.hbox1[this.BJugar]));
+		this.hbox2.Add(this.BJugar);
+		global::Gtk.Box.BoxChild w2 = ((global::Gtk.Box.BoxChild)(this.hbox2[this.BJugar]));
 		w2.Position = 1;
 		w2.Expand = false;
 		w2.Fill = false;
-		this.vbox1.Add(this.hbox1);
-		global::Gtk.Box.BoxChild w3 = ((global::Gtk.Box.BoxChild)(this.vbox1[this.hbox1]));
-		w3.Position = 0;
+		// Container child hbox2.Gtk.Box+BoxChild
+		this.Bcarton = new global::Gtk.Button();
+		this.Bcarton.CanFocus = true;
+		this.Bcarton.Name = "Bcarton";
+		this.Bcarton.UseUnderline = true;
+		this.Bcarton.Label = global::Mono.Unix.Catalog.GetString("Carton");
+		this.hbox2.Add(this.Bcarton);
+		global::Gtk.Box.BoxChild w3 = ((global::Gtk.Box.BoxChild)(this.hbox2[this.Bcarton]));
+		w3.Position = 2;
 		w3.Expand = false;
+		w3.Fill = false;
+		this.vbox1.Add(this.hbox2);
+		global::Gtk.Box.BoxChild w4 = ((global::Gtk.Box.BoxChild)(this.vbox1[this.hbox2]));
+		w4.Position = 0;
+		w4.Expand = false;
+		w4.Fill = false;
 		this.Add(this.vbox1);
 		if ((this.Child != null))
 		{
@@ -60,5 +74,6 @@ public partial class MainWindow
 		this.DefaultHeight = 455;
 		this.Show();
 		this.DeleteEvent += new global::Gtk.DeleteEventHandler(this.OnDeleteEvent);
+		this.Bcarton.Clicked += new global::System.EventHandler(this.OnClickBCarton);
 	}
 }
