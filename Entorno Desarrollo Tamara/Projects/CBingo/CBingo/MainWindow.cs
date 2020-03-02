@@ -11,6 +11,7 @@ public partial class MainWindow : Gtk.Window
     Bombo bombo = new Bombo();
 
     private IList<Carton> Boleto = new List<Carton>();
+    public Carton cart;
     
 
     public MainWindow(): base(Gtk.WindowType.Toplevel)
@@ -38,16 +39,28 @@ public partial class MainWindow : Gtk.Window
     {
         int numero = bombo.sacarBola();
         panel.Marcar(numero);
+        cart.Marcar(numero);
 
-        for(int i = 0; i < Boleto.Count; i++) {
-            Boleto[i].Marcar(numero);
+        // Boleto[1].Marcar(numero);
+
+      //  clickcarton(numero);
+
+
+         for(int i = 0; i < Boleto.Count; i++) {
+           Boleto[i].Marcar(numero);
+         }
+        for (int i = 15; i < 20; i++)
+        {
+            cart.Marcar(i);
         }
 
     }
 
     protected void OnClickBCarton(object sender, EventArgs e)
     {
-        Carton carton = new Carton();
-        Boleto.Add(carton);
+        cart = new Carton();
+        Boleto.Add(cart);      
+
     }
+
 }

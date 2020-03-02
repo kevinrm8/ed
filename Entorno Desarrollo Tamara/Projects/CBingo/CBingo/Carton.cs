@@ -15,6 +15,9 @@ namespace CBingo
         private static uint columns = 7;
 
         private IList<Button> buttons = new List<Button>();
+        private int[] hastalos = new int[90];
+        private int[] botones = new int[28];
+        private Button[] but = new Button[28];
         private IList<int> NCarton = new List<int>();
         private Random r = new Random();
 
@@ -22,24 +25,44 @@ namespace CBingo
         public Carton() :
                 base(Gtk.WindowType.Toplevel)
         {
-            for (int numero = 1; numero <= 90; numero++)
+            Build();
+            for (int numero = 0; numero < 90; numero++)
             { // CANTIDAD DE NUMEROS PARA EL CARTON
-                NCarton.Add(numero);
+                NCarton.Add(numero+1);
+                hastalos[numero] = numero+1;
+
             }
 
-                Build();
+            for(int i = 0; i < botones.Length; i++)
+            {
+                botones[i] = NumeroCarton();
+            }
+            for (int i = 0; i < botones.Length; i++)
+            {
+                but[i] = new Button();
+                but[i].Label = botones[i].ToString();
+
+            }
+            int k = 0;
+            //int index;
+
             Table table = new Table(rows, columns, true);
             for (int row = 0; row < rows; row++)
                 for (int column = 0; column < columns; column++)
                 {
-                    Button button = new Button();
-                    table.Attach(button, (uint)column, (uint)column + 1, (uint)row, (uint)row + 1);
-                    buttons.Add(button);
-                    button.Label = NumeroCarton().ToString();
-             
+                    //index = botones[k];
+                    //Button button = new Button();
+
+                    table.Attach(but[k], (uint)column, (uint)column + 1, (uint)row, (uint)row + 1);
+                    buttons.Add(but[k]);
+                    //button.Label = index.ToString();
+                    k++;
+                
                 }
+                
             vbox1.Add(table);
             table.ShowAll();
+
         }
 
 
@@ -53,7 +76,8 @@ namespace CBingo
 
         public void Marcar(int numero)
         {
-            buttons[numero - 1].ModifyBg(StateType.Normal, new Gdk.Color(0, 255, 0));
+            but[numero].ModifyBg(StateType.Normal, new Gdk.Color(0, 255, 0));
+
         }
     }
 }

@@ -68,6 +68,7 @@
     <Compile Include="gtk-gui\CBingo.Window.cs" />
     <Compile Include="Carton.cs" />
     <Compile Include="gtk-gui\CBingo.Carton.cs" />
+    <Compile Include="Window.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
