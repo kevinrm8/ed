@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AValidacion</string>
+    <string name="txt_name">Name</string>
+    <string name="txt_password">Password</string>
+    <string name="B_Validar">VALIDAR</string>
+</resources>
