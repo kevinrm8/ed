@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">TrabajoEEDD</string>
+    <string name="N_Club">Escribe el nombre del Club:</string>
+    <string name="NombreClub">Nombre del Club</string>
+    <string name="B_CrearClub">Crear CLUB</string>
+
+    <string name="Titular"></string>
+    <string name="CrearEquipo">CREAR EQUIPO</string>
+    <string name="VerEquipos">VER EQUIPO</string>
+
+    <string name="SelDeporte">Seleccione el deporte del equipo:</string>
+    <string name="Deporte">Deporte</string>
+    <string name="DatosEntrenador">Rellene los campos con los datos del entrenador</string>
+    <string name="NombreEntrenador">Nombre:</string>
+    <string name="ApellidosEntrenador">Apellidos:</string>
+    <string name="EdadEntrenador">Edad:</string>
+    <string name="EspecialidadEntrenador">Especialidad:</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Apellidos">Apellidos</string>
+    <string name="Edad">Edad</string>
+    <string name="Especialidad">Especialidad</string>
+    <string name="Guardar">GUARDAR</string>
+    <string name="Mensaje">El Club solo tiene presupuesto para un unico equipo. Lo podra editar tantas veces como quiera.</string>
+
+    <string name="Entrenador"></string>
+    <string name="Volver">VOLVER</string>
+</resources>

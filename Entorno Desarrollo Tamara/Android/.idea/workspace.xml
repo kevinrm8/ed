@@ -11,6 +11,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\DAM\1r Curso 2019-2020\ed\Entorno Desarrollo Tamara\Android\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1aZSnYLB3lwha3bLULBpanLBAHn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -46,7 +53,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
