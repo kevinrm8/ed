@@ -38,9 +38,12 @@ public class Deportes extends AppCompatActivity {
     public void VerEquipos(View view){
         Intent VerEquipos = new Intent(this,MostrarEquipos.class);
 
+        if (entrenador == null){
+            Toast.makeText(this,"PRIMERO DEBES CREAR EL EQUIPO",Toast.LENGTH_LONG).show();
+        }else{
             VerEquipos.putExtra("NombreDelClub",NombreDelClub);
             VerEquipos.putExtra("entrenador",entrenador);
             startActivity(VerEquipos);
-
+        }
     }
 }
