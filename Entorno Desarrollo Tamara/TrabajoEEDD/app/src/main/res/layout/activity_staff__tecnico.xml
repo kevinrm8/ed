@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Staff_Tecnico">
+
+    <TextView
+        android:id="@+id/SelDeporte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="70dp"
+        android:text="@string/SelDeporte"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/Deporte"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="29dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SelDeporte" />
+
+    <TextView
+        android:id="@+id/DatosEntrenador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginTop="59dp"
+        android:text="@string/DatosEntrenador"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Deporte" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="409dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DatosEntrenador">
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/NombreEntrenador"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="@string/NombreEntrenador"
+                android:textColorHighlight="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/ApellidosEntrenador"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="@string/ApellidosEntrenador" />
+
+            <TextView
+                android:id="@+id/EdadEntrenador"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="@string/EdadEntrenador" />
+
+            <TextView
+                android:id="@+id/EspecialidadEntrenador"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="@string/EspecialidadEntrenador" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/Nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/Nombre"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/Apellidos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/Apellidos"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/Edad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/Edad"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/Especialidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/Especialidad"
+                android:inputType="textPersonName"
+                android:textColorHighlight="#FFFFFF" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Guardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="100dp"
+        android:onClick="Guardar"
+        android:text="@string/Guardar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
